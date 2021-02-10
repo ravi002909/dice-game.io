@@ -1,10 +1,10 @@
 var randomnumber1=Math.round(Math.random()*5+1);
-var p="/Users/ravindrameena/Downloads/Dicee Challenge - Starting Files/images/dice" + randomnumber1 +  ".png"
+var p="dice" + randomnumber1 +  ".png"
 var d=document.querySelectorAll("img")[0];
 d.setAttribute("src",p);
 
 var randomnumber2=Math.round(Math.random()*5+1);
-var ef="/Users/ravindrameena/Downloads/Dicee Challenge - Starting Files/images/dice" + randomnumber2 +  ".png"
+var ef="dice" + randomnumber2 +  ".png"
 var r=document.querySelectorAll("img")[1];
 r.setAttribute("src",ef);
 
